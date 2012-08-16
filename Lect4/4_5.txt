@@ -1,0 +1,11 @@
+4_1
+int -> int
+
+4_2
+string -> string
+
+4_3
+float -> float
+
+4_4
+float -> float -> float

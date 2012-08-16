@@ -1,0 +1,14 @@
+(1) if 2 < 1 then 3 else 4
+int 型。
+
+(2) if "true" then 3.14 else 2.72
+エラー。"true" は string 型であり bool 型ではないため if の条件式とすることはできない。
+
+(3) if "a" = "b" then false else true
+bool 型。
+
+(4) if true < false then 1 else "2"
+エラー。then 節の 1 は int 型であり else 節の "2" は string 型であるが、これは規約違反である。
+
+(5) if not (3 = 4) then 1 < 2 else 1 > 2
+bool 型。
